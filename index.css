@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightcyan;
+}
+
+.cont{
+    height: 50vh;
+    width: 50vw;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 13%;
+}
+#timer{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.cont textarea{
+    height: 90%;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.cont .counter{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-size: 20px;
+}
